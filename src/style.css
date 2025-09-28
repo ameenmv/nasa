@@ -1,1 +1,7 @@
 @import "tailwindcss";
+@import url(./normalize.css);
+
+body {
+  font-family: "acumin-pro", sans-serif !important;
+  color: white;
+}
