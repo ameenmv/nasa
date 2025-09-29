@@ -4,4 +4,52 @@
 body {
   font-family: "acumin-pro", sans-serif !important;
   color: white;
+  overflow-x: hidden;
+}
+
+.bbgg {
+  background-color: #1e3c94;
+}
+
+.containerr {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 576px) {
+  .containerr {
+    max-width: 560px;
+  }
+}
+
+@media (min-width: 768px) {
+  .containerr {
+    max-width: 740px;
+  }
+}
+
+@media (min-width: 992px) {
+  .containerr {
+    max-width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .containerr {
+    max-width: 1160px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .containerr {
+    max-width: 1350px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .containerr {
+    max-width: 1660px;
+  }
 }

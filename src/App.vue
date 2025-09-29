@@ -1,21 +1,22 @@
 <template>
-  <router-view></router-view>
+  <div class="smooth-wrapper">
+    <!-- Intro component - shows on all pages -->
+    <Intro />
+
+    <div class="smooth-content">
+      <router-view></router-view>
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
   name: "App",
-  components: {
-    // Add your components here
-  },
+
   data() {
-    return {
-      // Define your data properties here
-    };
+    return {};
   },
-  methods: {
-    // Define your methods here
-  },
+  methods: {},
 };
 </script>
 

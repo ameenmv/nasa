@@ -3,4 +3,8 @@ import "./style.css";
 import router from "./Router";
 import App from "./App.vue";
 
-createApp(App).use(router).mount("#app");
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
+createApp(App).use(router).use(gsap).mount("#app");
